@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.phase1{
+    background-image: url(wp8777712.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+ 
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.phase1 h1{
+    color: orangered;
+    font-size: 30px;
+    margin-left: 40px;
+    
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    
+    
+}
+
+.main{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+button{
+    background: none;
+    border: 1px  solid orangered;
+    padding: 8px;
+    width: 150px;
+    color: white;
+    position: absolute;
+    left: 320px;
+    top: 108px;
+
+}
+
+button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.phase2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 260px;
+    line-height: 30px;
+    
+
+}
+
+
+.div1{
+   margin-right: 50px;
+   margin-top: 50px;
+   margin-left: 200px;
+   position: relative;
+}
+.div1 .twobutt{
+   top: 170px;
+   left: 0;
+   background-color: orangered;
+   padding: 7px;
+   width: 370px;
+}
+
+.div1 h2{
+   font-size: 30px;
+   font-weight: 40px;
+}
+
+
+
+.div2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+.phase3{
+    padding: 40px;
+    background-color: rgb(146, 145, 145);
+    color: white;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+    
+}
+
+.phase3 h2{
+    font-size: 30px;
+    font-weight: 40px;
+}
+
+.phase3 .cont{
+    /* padding-left: 20px; */
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.phase3 p{
+    line-height: 20px;
+    color: black;
+}
+
+.phase3 .image img{
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.phase3 .image{
+    width: 200px;
+    background-color: white;
+    height: 260px;
+    
+}
+
+.phase3 .det{
+    display: flex;
+    justify-content: space-between;
+    
+    color: black;
+    padding: 10px;
+    margin: 0px; 
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.phase4 .card{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    position: relative;
+    
+}
+
+
+
+.card .ron{
+    background-color: red;
+    color: black;
+    border-radius: 45px;
+    width: 50px;
+    padding: 15px;
+    position: absolute;
+    top: 230px;
+    left: 230px;
+}
+
+.phase4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 50px;
+    background-color: whitesmoke;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.phase4 .para{
+    position: absolute;
+    top: 1250px;
+    left: 480px;
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.para h4{
+    color: gray;
+
+}
+
+
+
+td,th{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    color: rgb(242, 224, 224);
+    width: 100px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin:10px auto;
+}
+
+td:nth-child(1){
+    background-color: rgb(255, 47, 0);
+}
+
+td:hover{
+    background-color: orangered;
+}
+
+th{ 
+    background-color: rgb(255, 47, 0);
+}
+
+.phase5{
+    background-color: black;
+    
+}
+
+.phase5 .table{
+    background-color: black;
+    margin:100px 20px;
+    padding:40px;
+    text-align: center;
+} 
+
+.phase5 h1{
+    color: aliceblue;
+}
+
+.phase5 h2{
+    color: aliceblue;
+}
+
+.phase6{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.phase6 .input{
+    margin-left:200px ;
+    padding: 15px;
+
+}
+
+.phase6 .input input{
+    padding: 15px; 
+    width: 400px;
+    margin-bottom: 20px;
+    
+} 
+
+.input h2{
+    font-size: 30px;
+     
+}
+.phase6 .map{
+    margin-left: 50px;
+}
+
+.phase6 .map iframe{
+    width: 400px;
+    height: 200px;
+}
+
+.input button{
+    background-color: orangered;
+    color: black;
+    width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 2670px;
+    left: 215px;
+}
+
+
+
+
+
